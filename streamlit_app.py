@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-import snowflake
+from snowflake.snowpark.functions import col
 
 
 helpful_links = [
